@@ -36,7 +36,7 @@ jobs:
       - image: circleci/node:7.10
     steps:
       - attach_workspace:
-          at: /root/project
+          at: /home/circleci/project
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - run: npm publish
 workflows:
