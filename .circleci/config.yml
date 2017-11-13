@@ -26,9 +26,3 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
-      - deploy:
-          npm:
-            tag: /v[0-9]+(\.[0-9]+)*/
-              commands:
-                - npm publish
