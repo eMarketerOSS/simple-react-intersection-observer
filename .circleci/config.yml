@@ -22,16 +22,13 @@ jobs:
       - run: yarn install
       - run: yarn run build
 
-
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-        
-      # run tests!
-      - run: echo "test"
+
       - deploy:
           npm:
             tag: /v[0-9]+(\.[0-9]+)*/
-                commands:
-              - npm publish
+              commands:
+                - npm publish
