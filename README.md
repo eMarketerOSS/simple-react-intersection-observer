@@ -11,13 +11,13 @@ A simple wrapper component around [react-intersection-observer](https://github.c
 Install using [Yarn](https://yarnpkg.com):
 
 ```sh
-yarn add simple-react-intersection-observer
+yarn add @emarketeross/simple-react-intersection-observer
 ```
 
 or NPM:
 
 ```sh
-npm install simple-react-intersection-observer --save
+npm install @emarketeross/simple-react-intersection-observer --save
 ```
 
 ## Example Code
