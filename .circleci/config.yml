@@ -18,13 +18,13 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: 
-        - yarn install
-        - yarn run build
-        - mkdir $CIRCLE_ARTIFACTS/es
-        - mkdir $CIRCLE_ARTIFACTS/lib
-        - cp es/*.* $CIRCLE_ARTIFACTS/es
-        - cp lib/*.* $CIRCLE_ARTIFACTS/lib
+      - run: yarn install
+      - run: yarn run build
+      - run: mkdir $CIRCLE_ARTIFACTS/es
+      - run: mkdir $CIRCLE_ARTIFACTS/lib
+      - run: cp es/*.* $CIRCLE_ARTIFACTS/es
+      - run: cp lib/*.* $CIRCLE_ARTIFACTS/lib
+
 
       - save_cache:
           paths:
