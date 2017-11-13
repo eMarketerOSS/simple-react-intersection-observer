@@ -1,14 +1,13 @@
 {
   "name": "simple-react-intersection-observer",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "simple-react-intersection-observer React component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
     "css",
     "es",
-    "lib",
-    "umd"
+    "lib"
   ],
   "scripts": {
     "build": "nwb build-react-component",
