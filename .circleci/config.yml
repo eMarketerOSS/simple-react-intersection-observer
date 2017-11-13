@@ -4,10 +4,10 @@
 #
 version: 2
 jobs:
-  dependencies:
-    pre:
-      - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
   build:
+    dependencies:
+      pre:
+        - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
     docker:
       # specify the version you desire here
       - image: circleci/node:7.10
