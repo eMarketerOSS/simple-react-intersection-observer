@@ -5,6 +5,8 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
+    "readme.md",
+    "LICENSE",
     "css",
     "es",
     "lib"
@@ -30,9 +32,10 @@
   },
   "author": "",
   "homepage": "",
-  "license": "Apache2",
+  "license": "Apache-2.0",
   "repository": "",
   "keywords": [
-    "react-component"
+    "react-component",
+    "intersection-observer"
   ]
 }
