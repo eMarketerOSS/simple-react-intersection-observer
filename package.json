@@ -1,5 +1,5 @@
 {
-  "name": "@emarketer/simple-react-intersection-observer",
+  "name": "@emarketeross/simple-react-intersection-observer",
   "version": "0.1.5",
   "description": "simple-react-intersection-observer React component",
   "main": "lib/index.js",
