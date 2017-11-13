@@ -28,12 +28,11 @@ jobs:
   deploy:
     docker:
       - image: circleci/node:7.10
-      - working_directory: ~/project
-      steps:
-        - attach_workspace:
-            at: /root/project
-        - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-        - run: npm publish
+    steps:
+      - attach_workspace:
+          at: /root/project
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run: npm publish
 workflows:
   version: 2
   build-and-deploy:
