@@ -1,7 +1,7 @@
 # simple-react-intersection-observer
 
 [![GitHub license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/eMarketerOSS/simple-react-intersection-observer/blob/master/LICENSE)
-[![npm package][npm-badge]][npm]
+[![npm version](https://badge.fury.io/js/%40emarketeross%2Fsimple-react-intersection-observer.svg)](https://badge.fury.io/js/%40emarketeross%2Fsimple-react-intersection-observer)
 [![CircleCI Status](https://circleci.com/gh/eMarketerOSS/simple-react-intersection-observer.svg?&style=shield&circle-token=36691e1218925ba1b81126f489ee5d47c7d658a2)](https://circleci.com/gh/eMarketerOSS/simple-react-intersection-observer)
 
 A simple wrapper component around [react-intersection-observer](https://github.com/thebuilder/react-intersection-observer) that will not lazy load if its being called from the server side or if the browser does not support IntersectionObserver.
@@ -17,7 +17,7 @@ yarn add @emarketeross/simple-react-intersection-observer
 or NPM:
 
 ```sh
-npm install @emarketeross/simple-react-intersection-observer --save
+npm i @emarketeross/simple-react-intersection-observer --save
 ```
 
 ## Example Code
