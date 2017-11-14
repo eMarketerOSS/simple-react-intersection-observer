@@ -1,6 +1,6 @@
 {
   "name": "@emarketeross/simple-react-intersection-observer",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "simple-react-intersection-observer React component",
   "repository": "",
   "main": "lib/index.js",
