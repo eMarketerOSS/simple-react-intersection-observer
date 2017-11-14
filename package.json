@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
-    "readme.md",
+    "README.md",
     "LICENSE",
     "css",
     "es",
@@ -23,7 +23,7 @@
     "react-intersection-observer": "^2.0.1"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "^15.0.0 || ^16.0.0 || ^17.0.0"
   },
   "devDependencies": {
     "nwb": "0.19.x",

@@ -28,7 +28,7 @@ jobs:
       - persist_to_workspace:
           root: /home/circleci/project
           paths:
-           - readme.md
+           - README.md
            - LICENSE
            - package.json
            - es/*
