@@ -5,7 +5,7 @@ export default class ObserverWrapper extends Component {
     constructor() {
         super();
 
-        this.useObserver = global.__SERVER__ ||
+        this.useObserver = typeof window !== "undefined" &&
                             ('IntersectionObserver' in window &&
                             'IntersectionObserverEntry' in window &&
                             'intersectionRatio' in window.IntersectionObserverEntry.prototype &&
