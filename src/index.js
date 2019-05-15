@@ -21,7 +21,7 @@ export default class ObserverWrapper extends Component {
     }
 
     render() {
-        if (!this.useObserver) {
+        if (!this.useObserver || typeof window === 'undefined') {
             return (<div>{this.props.children}</div>);
         }
 
