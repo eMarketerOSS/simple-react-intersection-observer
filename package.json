@@ -1,8 +1,7 @@
 {
   "name": "@emarketeross/simple-react-intersection-observer",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "simple-react-intersection-observer React component",
-  "repository": "",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -19,6 +18,10 @@
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eMarketerOSS/simple-react-intersection-observer"
   },
   "dependencies": {
     "react-intersection-observer": "^2.0.1"
